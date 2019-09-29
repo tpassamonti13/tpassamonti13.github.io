@@ -12,11 +12,22 @@ $(document).ready(function()
 
 function retrieveStats()
 {
-  var xhttp = new XMLHttpRequest();
-  xhttp.open("GET", "https://api.fortnitetracker.com/v1/profile/{pc}/{Tony.P.21}", true);
-  xhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
-  xhttp.setRequestHeader('Access-Control-Allow-Headers', '*');
-  xhttp.setRequestHeader('Access-Control-Allow-Methods', '*');
-  xhttp.setRequestHeader('TRN-Api-Key', "3f4fd021-940a-4cee-b3b1-bf4fcc4a29e9");
-  xhttp.send();
+   $.ajax(
+	 {
+	   url: 'https://api.fortnitetracker.com/v1/profile/{pc}/{Tony.P.21}',
+	   dataType: "json",
+	   type: 'GET',
+     headers:
+     {
+       'TRN-API-Key' : '3f4fd021-940a-4cee-b3b1-bf4fcc4a29e9'
+     },
+     success: function(data)
+     {
+       console.log(data);
+     },
+     error: function()
+     {
+       console.log('ERROR');
+     }
+   });           
 }
