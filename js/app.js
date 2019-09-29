@@ -18,7 +18,7 @@ function retrieveStats()
     { 
       "TRN-Api-Key":"3f4fd021-940a-4cee-b3b1-bf4fcc4a29e9" 
     },
-    dataType: json,
+    dataType: "json",
     type: "GET",
     success: function(data)
     {
