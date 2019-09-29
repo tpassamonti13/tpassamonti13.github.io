@@ -13,7 +13,7 @@ $(document).ready(function()
 function retrieveStats()
 {
   var xhttp = new XMLHttpRequest();
-  xhttp.request("GET", "https://cors.io/?https://api.fortnitetracker.com/v1/profile/{pc}/{Tony.P.21}", true);
+  xhttp.open("GET", "https://cors.io/?https://api.fortnitetracker.com/v1/profile/{pc}/{Tony.P.21}", true);
   xhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
   xhttp.setRequestHeader('Access-Control-Allow-Headers', '*');
   xhttp.setRequestHeader('Access-Control-Allow-Methods', '*');
