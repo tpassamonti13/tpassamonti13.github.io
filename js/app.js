@@ -24,6 +24,7 @@ function retrieveStats()
      success: function(data)
      {
        console.log(data);
+	     $('#winStatLifetime').html(data.stats.p2.top1.value);
      },
      error: function()
      {
