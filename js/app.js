@@ -7,7 +7,7 @@ var kdStatLifetime;
 
 $(document).ready(function()
 {
-
+  retrieveStats();
 });
 
 function retrieveStats()
