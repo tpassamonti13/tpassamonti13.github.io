@@ -23,5 +23,6 @@ function retrieveStats()
     success: function(data)
     {
       console.log(data);
-    });
+    }
+  });
 }
