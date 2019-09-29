@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+body
+{
+	font-family: 'Luckiest Guy', cursive;
+}
+#overlayBoxSession
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 280px;
+	height: 115px;
+}
+#sessionBox
+{
+	position: absolute;
+	top: 20px;
+	left: 75px;
+	height: 25px;
+	width: 120px;
+	background-color:rgba(0, 0, 0, 0.6);
+	line-height: 25px;
+	border-radius: 5px;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #00c7e0;
+}
+#winsBoxSession
+{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	height: 90px;
+	width: 90px;
+	background-color:rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	text-align: center;
+	color: #006aff;
+}
+#killsBoxSession
+{
+	position: absolute;
+	top: 50px;
+	left: 95px;
+	height: 90px;
+	width: 90px;
+	background-color:rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	text-align: center;
+	color: #e25bff;
+}
+#kdBoxSession
+{
+	position: absolute;
+	top: 50px;
+	left: 190px;
+	height: 90px;
+	width: 90px;
+	background-color:rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	text-align: center;
+	color: #ddb1ff;
+}
+#matchesBoxSession
+{
+	position: absolute;
+	bottom: 0;
+	left: 315px;
+	height: 90px;
+	width: 90px;
+	background-color:rgba(0, 0, 0, 0.6);
+	line-height: 25px;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #fbefff;
+}
+#overlayBoxLifetime
+{
+	position: fixed;
+	top: 0;
+	left: 500px;
+	width: 280px;
+	height: 195px;
+}
+#lifetmeBox
+{
+	position: absolute;
+	top: 20px;
+	left: 75px;
+	height: 25px;
+	width: 120px;
+	background-color:rgba(0, 0, 0, 0.6);
+	line-height: 25px;
+	border-radius: 5px;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #00c7e0;
+}
+#winsBoxLifetime
+{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	height: 90px;
+	width: 90px;
+	background-color:rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	text-align: center;
+	color: #006aff;
+}
+#killsBoxLifetime
+{
+	position: absolute;
+	top: 50px;
+	left: 95px;
+	height: 90px;
+	width: 90px;
+	background-color:rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	text-align: center;
+	color: #e25bff;
+}
+#kdBoxLifetime
+{
+	position: absolute;
+	top: 50px;
+	left: 190px;
+	height: 90px;
+	width: 90px;
+	background-color:rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	text-align: center;
+	color: #ddb1ff;
+}
+#logo
+{
+	position: absolute;
+	top: 40px;
+	left: 281px;
+	height: 100px;
+	width: 219.23551171393342px;
+}
+.stat
+{
+	color: #fff;
+	font-size: 42px;
+}
