@@ -13,7 +13,7 @@ $(document).ready(function()
 function retrieveStats()
 {
   $.ajax({
-    url: 'https://api.fortnitetracker.com/v1/profile/{pc}/{Tony.P.21}',
+    url: 'http://cors.io/?https://api.fortnitetracker.com/v1/profile/{pc}/{Tony.P.21}',
     headers: 
     {
       'Access-Control-Allow-Origin' : '*',
