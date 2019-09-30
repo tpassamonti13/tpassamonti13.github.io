@@ -19,7 +19,7 @@ function retrieveStats()
            beforeSend: function(xhrObj)
 	{
                 // Request headers
-                xhrObj.setRequestHeader("'TRN-API-Key' : '3f4fd021-940a-4cee-b3b1-bf4fcc4a29e9'");
+                xhrObj.setRequestHeader("TRN-API-Key' : '3f4fd021-940a-4cee-b3b1-bf4fcc4a29e9");
             },
      success: function(data)
      {
