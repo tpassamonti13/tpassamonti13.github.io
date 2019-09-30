@@ -15,15 +15,12 @@ function retrieveStats()
    $.ajax(
 	 {
 	   url: 'https://api.fortnitetracker.com/v1/profile/pc/Tony.P.21',
-	   dataType: "application/json",
 	   type: 'GET',
-     headers:
-     {
-	'Access-Control-Allow-Origin': '*',
-	 "Access-Control-Allow-Methods": "DELETE, POST, GET, OPTIONS",
-"Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With",
-       'TRN-API-Key' : '3f4fd021-940a-4cee-b3b1-bf4fcc4a29e9'
-     },
+           beforeSend: function(xhrObj)
+	{
+                // Request headers
+                xhrObj.setRequestHeader("'TRN-API-Key' : '3f4fd021-940a-4cee-b3b1-bf4fcc4a29e9'");
+            },
      success: function(data)
      {
        console.log(data);
