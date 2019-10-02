@@ -14,7 +14,7 @@ function retrieveStats()
 {
    $.ajax(
  {
-	   url: 'https://api.fortnitetracker.com/v1/profile/pc/Tony.P.21',
+	   url: 'https://api.fortnitetracker.com/v1/profile/{pc}/{Tony.P.21}',
 	   type: 'GET',
 	 headers:
 	 {
