@@ -20,7 +20,7 @@ function retrieveStats()
      {
        	     $('#winStatSession').html(data[6].winCount);
 	     $('#killStatSession').html(data[6].killCount);
-	     $('#kdStatSession').html((data[6].killCount / data[6].matchCount);
+	     $('#kdStatSession').html((data[6].killCount / data[6].matchCount));
      }
    });           
 }
