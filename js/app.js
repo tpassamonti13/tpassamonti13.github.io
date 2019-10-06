@@ -14,7 +14,7 @@ function retrieveStats()
 {
    $.ajax(
  {
-	 url: 'https://crossorigin.me/https://www.fortnitescout.com/_code/match-history.php?playerName=Tony.P.21&platform=PlatformPc',
+	 url: 'https://cors-anywhere.herokuapp.com/https://www.fortnitescout.com/_code/match-history.php?playerName=Tony.P.21&platform=PlatformPc',
 	   type: 'GET',
      success: function(data)
      {
