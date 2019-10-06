@@ -18,7 +18,9 @@ function retrieveStats()
 	   type: 'GET',
      success: function(data)
      {
-       $('#winStatSession').html(data[6].winCount);
+       	     $('#winStatSession').html(data[6].winCount);
+	     $('#killStatSession').html(data[6].killCount);
+	     $('#kdStatSession').html((data[6].killCount / data[6].matchCount);
      }
    });           
 }
