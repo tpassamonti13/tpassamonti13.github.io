@@ -39,6 +39,7 @@ $(document).ready(function()
      $('#kdBoxLifetime').css({'height' : '90px'});
 	   
      $('#logo').fadeIn(800);
+     $('.boxTitle').fadeIn(800);
   }, 2000);
 
   setInterval(function()
