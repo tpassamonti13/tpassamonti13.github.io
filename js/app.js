@@ -37,6 +37,8 @@ $(document).ready(function()
      $('#winsBoxLifetime').css({'height' : '90px'});
      $('#killsBoxLifetime').css({'height' : '90px'});
      $('#kdBoxLifetime').css({'height' : '90px'});
+	   
+     $('#logo').fadeIn(800);
   }, 2000);
 
   setInterval(function()
