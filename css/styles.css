@@ -38,7 +38,7 @@ body
 	border-radius: 5px;
 	text-align: center;
 	color: #006aff;
-	transition: 0.5s;
+	transition: 0.8s;
 }
 #killsBoxSession
 {
@@ -51,6 +51,7 @@ body
 	border-radius: 5px;
 	text-align: center;
 	color: #e25bff;
+	transition: 0.8s;
 }
 #kdBoxSession
 {
@@ -63,6 +64,7 @@ body
 	border-radius: 5px;
 	text-align: center;
 	color: #ddb1ff;
+	transition: 0.8s;
 }
 #overlayBoxLifetime
 {
@@ -98,6 +100,7 @@ body
 	border-radius: 5px;
 	text-align: center;
 	color: #006aff;
+	transition: 0.8s;
 }
 #killsBoxLifetime
 {
@@ -110,6 +113,7 @@ body
 	border-radius: 5px;
 	text-align: center;
 	color: #e25bff;
+	transition: 0.8s;
 }
 #kdBoxLifetime
 {
@@ -122,6 +126,7 @@ body
 	border-radius: 5px;
 	text-align: center;
 	color: #ddb1ff;
+	transition: 0.8s;
 }
 #logo
 {
