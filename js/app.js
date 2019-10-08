@@ -29,7 +29,7 @@ $(document).ready(function()
 {
   retrieveStats();
 	
-  $('#winBoxSession').css('height' : '90px');
+  $('#winsBoxSession').css('height' : '90px');
 
   setInterval(function()
   {
