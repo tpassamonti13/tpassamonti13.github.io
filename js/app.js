@@ -32,7 +32,7 @@ $(document).ready(function()
   setInterval(function()
   {
     retrieveStats();
-  }, 30000)
+  }, 60000)
 });
 
 function retrieveStats()
