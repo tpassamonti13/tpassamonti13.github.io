@@ -28,6 +28,8 @@ var currentKdStatLifetime = 0;
 $(document).ready(function()
 {
   retrieveStats();
+	
+  $('#winBoxSession').css('height' : '90px');
 
   setInterval(function()
   {
@@ -40,7 +42,7 @@ function retrieveStats()
   $.ajax(
   {
     url: 'https://cors-anywhere.herokuapp.com/https://api.fortnitetracker.com/v1/profile/pc/Tony.P.21',
-	  type: 'GET',
+    type: 'GET',
     headers:
     {
       'TRN-API-Key' : '3f4fd021-940a-4cee-b3b1-bf4fcc4a29e9'
