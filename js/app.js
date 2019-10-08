@@ -32,7 +32,7 @@ $(document).ready(function()
   setInterval(function()
   {
     retrieveStats();
-  }, 5000)
+  }, 30000)
 });
 
 function retrieveStats()
@@ -117,9 +117,4 @@ function retrieveStats()
       });
     }
   });           
-}
-
-function updateStats()
-{
-
 }
