@@ -27,9 +27,17 @@ var currentKdStatLifetime = 0;
 
 $(document).ready(function()
 {
-  retrieveStats();
+  setTimeout(function(){
+     retrieveStats();
 	
-  $('#winsBoxSession').css({'height' : '90px'});
+     $('#winsBoxSession').css({'height' : '90px'});
+     $('#killsBoxSession').css({'height' : '90px'});
+     $('#kdBoxSession').css({'height' : '90px'});
+
+     $('#winsBoxLifetime').css({'height' : '90px'});
+     $('#killsBoxLifetime').css({'height' : '90px'});
+     $('#kdBoxLifetime').css({'height' : '90px'});
+  }, 2000);
 
   setInterval(function()
   {
