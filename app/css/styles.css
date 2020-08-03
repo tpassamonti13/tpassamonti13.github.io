@@ -1,2 +1,31 @@
+/*
+ * Navbar
+ */
 .nav-item {
   margin-left: 25px; }
+
+.nav-link .fab {
+  font-size: 24px; }
+
+#hero {
+  height: 100vh;
+  background: url(../images/white-wallpaper.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#about {
+  height: 70vh; }
+
+#theteam {
+  height: 100vh; }
+
+#streamteam {
+  height: 100vh; }
+
+#partners {
+  height: 70vh; }
+
+#joinUs {
+  height: 50vh; }
